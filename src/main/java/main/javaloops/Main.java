@@ -112,35 +112,55 @@ public class Main {
 //          System.out.println("Dan je" + day);
 
 //        SWITCH VARIJANTA 2    
-            int number;
+//            int number;
+//            
+//            Scanner scanner = new Scanner(System.in);
+//            
+//            System.out.println("Unesite redni broj meseca");
+//            
+//            number = scanner.nextInt();
+//            
+//            switch(number){
+//                case 1:
+//                case 3:
+//                case 5:
+//                case 7:
+//                case 8:
+//                case 10:
+//                case 12:
+//                    System.out.println("Mesec ima 31 dan.");
+//                    break;
+//                case 2:
+//                    System.out.println("Mesec ima 28/29 dana.");
+//                    break;
+//                case 4:
+//                case 6:
+//                case 9:
+//                case 11:
+//                    System.out.println("Mesec ima 30 dana.");
+//                    break;
+//            }
             
-            Scanner scanner = new Scanner(System.in);
-            
-            System.out.println("Unesite redni broj meseca");
-            
-            number = scanner.nextInt();
-            
-            switch(number){
-                case 1:
-                case 3:
-                case 5:
-                case 7:
-                case 8:
-                case 10:
-                case 12:
-                    System.out.println("Mesec ima 31 dan.");
-                    break;
-                case 2:
-                    System.out.println("Mesec ima 28/29 dana.");
-                    break;
-                case 4:
-                case 6:
-                case 9:
-                case 11:
-                    System.out.println("Mesec ima 30 dana.");
-                    break;
-            }
-            
+//        ENUM SWITCH
+//
+//        Level level = Level.MEDIUM; //kreira se novi enum
+//        
+//        switch (level){
+//            case LOW:
+//                System.out.println("Ovo je najlakši nivo");
+//                break;
+//            case MEDIUM:
+//                System.out.println("Ovo je srednji nivo");
+//                break;
+//                
+//            case HIGH:
+//                System.out.println("Ovo je najteži nivo");
+//                break;
+//            default:
+//                break;
+//        }
+                
+                
         
         //WHILE LOOP
 //        
