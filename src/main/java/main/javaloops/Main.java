@@ -110,6 +110,37 @@ public class Main {
     //        }
 //        
 //          System.out.println("Dan je" + day);
+
+//        SWITCH VARIJANTA 2    
+            int number;
+            
+            Scanner scanner = new Scanner(System.in);
+            
+            System.out.println("Unesite redni broj meseca");
+            
+            number = scanner.nextInt();
+            
+            switch(number){
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 8:
+                case 10:
+                case 12:
+                    System.out.println("Mesec ima 31 dan.");
+                    break;
+                case 2:
+                    System.out.println("Mesec ima 28/29 dana.");
+                    break;
+                case 4:
+                case 6:
+                case 9:
+                case 11:
+                    System.out.println("Mesec ima 30 dana.");
+                    break;
+            }
+            
         
         //WHILE LOOP
 //        
@@ -222,12 +253,12 @@ public class Main {
 //***
 //****
 //*****
-               for (int i = 0; i < 6; i++) {
-                    for (int j = 0; j < i; j++) {
-                        System.out.print("*");
-                    }
-                System.out.println("");
-                }
+//               for (int i = 0; i < 6; i++) {
+//                    for (int j = 0; j < i; j++) {
+//                        System.out.print("*");
+//                    }
+//                System.out.println("");
+//                }
                
 
 
